@@ -25,9 +25,8 @@ public class QuoteService {
         quoteRepository.saveAll(quotes);
     }
 
-    public List <Quote> getAllQuotes() {
-
-        return quoteRepository.findAll();
+    public List <Quote> getAllQuotes(String subject, String text) {
+        return quoteRepository.filterQuotes(subject, text);
     }
 
     public List<Quote> getBySubject (String subject){

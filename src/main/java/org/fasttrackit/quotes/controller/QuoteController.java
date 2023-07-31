@@ -16,11 +16,9 @@ public class QuoteController {
     private final QuoteService quoteService;
 
     @GetMapping // GET http://host:port/quotes
-    public List<Quote> getAll(@RequestParam(required = false) String subject){
-        if(subject != null){
-            return quoteService.getBySubject(subject);
-        }
-        return quoteService.getAllQuotes();
+    public List<Quote> getAll(@RequestParam(required = false) String subject,
+                              @RequestParam(required = false) String text) {
+        return quoteService.getAllQuotes(subject, text);
     }
 
     @GetMapping("/{id}") // GET http://host:port/quotes/3
