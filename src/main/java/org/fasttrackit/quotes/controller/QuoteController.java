@@ -16,7 +16,10 @@ public class QuoteController {
     private final QuoteService quoteService;
 
     @GetMapping // GET http://host:port/quotes
-    public List<Quote> getAll(){
+    public List<Quote> getAll(@RequestParam(required = false) String subject){
+        if(subject != null){
+            return quoteService.getBySubject(subject);
+        }
         return quoteService.getAllQuotes();
     }
 

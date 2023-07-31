@@ -27,19 +27,15 @@ public class QuoteService {
 
     public List <Quote> getAllQuotes() {
 
-        return StreamSupport.stream(quoteRepository.findAll().spliterator(),false).toList();
+        return quoteRepository.findAll();
     }
 
     public List<Quote> getBySubject (String subject){
-        return getAllQuotes().stream()
-                .filter(quote ->quote.getSubject().equals(subject))
-                .toList();
+        return quoteRepository.findBySubject(subject);
     }
 
     public Quote getById(long id){
-        return getAllQuotes().stream()
-                .filter(quote -> quote.getId()== id)
-                .findFirst()
+        return quoteRepository.findById(id)
                 .orElseThrow(()-> new ResourceNotFoundException("Quote not found", id));
     }
 
