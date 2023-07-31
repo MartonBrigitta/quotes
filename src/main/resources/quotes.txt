@@ -1,7 +1,11 @@
 The Little Prince|Antoine de Saint Exupéry|And now here is my secret, a very simple secret: It is only with the heart that one can see rightly; what is essential is invisible to the eye|Love
 The Great Gatsby|F Scott Fitzgerald|So we beat on, boats against the current, borne back ceaselessly into the past|Time
-Pride and Prejudice|Jane Austen|You must allow me to tell you how ardently I admire and love you|False|Love
+Pride and Prejudice|Jane Austen|You must allow me to tell you how ardently I admire and love you|Love
 To Kill a Mockingbird|Harper Lee|You never really understand a person until you consider things from his point of view… Until you climb inside of his skin and walk around it|Empathy
 The Alchemist|Paulo Coelho|And, when you want something, all the universe conspires in helping you to achieve it|Destiny
 One Hundred Years of Solitude|Gabriel Garcia Marquez|He allowed himself to be swayed by his conviction that human beings are not born once and for all on the day their mothers give birth to them, but that life obliges them over and over again to give birth to themselves|Life
 The Picture of Dorian Gray|Oscar Wilde|The only way to get rid of temptation is to yield to it|Morality
+Test|Test|Test|Test
+Can't Hurt Me|David Goggins|The only way to achieve your true potential is to silence the noice and take control of your mind|Personal development
+Atomic Habits|James Clear|Your habits shape your identity, and your identity shapes your habits|Personal development
+Little Women|Louisa May Alcott|I am not afraid of storms, for I am learning how to sail my ship|Life
